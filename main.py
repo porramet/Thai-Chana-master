@@ -46,7 +46,7 @@ class Laser:
 
 
 class Ship:
-    COOLDOWN = 25
+    COOLDOWN = 20
 
     def __init__(self, x, y, health=100):
         self.x = x
